@@ -1,51 +1,24 @@
-# Employee-Payroll-CLI
+# Employee Payroll CLI
 
-📌 Employee Payroll System (Java - OOP)
+Employee Payroll CLI is a console-based payroll management system developed using pure Java and Object-Oriented Programming principles. The application manages different types of employees and performs role-specific payroll calculations through a clean and extensible architecture.
 
-A simple, beginner-friendly yet industry-style Employee Payroll System built using pure Java — no frameworks, no databases, just clean OOP and a console interface.
+The system supports Full-Time and Part-Time employees, with dedicated salary calculation logic for basic salary, bonuses, deductions, hourly rates, and hours worked. It demonstrates core OOP concepts including abstraction, inheritance, interfaces, polymorphism, and method overriding.
 
-This project is designed to teach:
+The application follows a layered Model-Service-Application architecture, separating data models, business logic, and application flow. It also includes user input validation, employee search by ID, employee listing, and total payroll calculation.
 
-✔ Object-Oriented Programming
-✔ Abstraction, Inheritance & Polymorphism
-✔ Interfaces & Implementations
-✔ Clean project structure
-✔ Real-life salary calculation logic
-✔ Handling user input with validation
+## Key Features
 
-🔧 Features
-👨‍💼 Add Employees
+- Add and manage Full-Time and Part-Time employees
+- Role-specific salary and net-pay calculations
+- Bonus and deduction handling
+- Hourly-pay calculation for Part-Time employees
+- Employee search by ID
+- Display all employees
+- Calculate total payroll
+- Input validation
+- Console-based interactive menu
+- Layered and extensible project structure
 
-Supports two employee types:
+## Technologies & Concepts
 
-✔ FullTimeEmployee – basic salary, bonus, deductions
-
-✔ PartTimeEmployee – hourly rate, hours worked, deductions
-
-🧮 Payroll Calculations
-
-✔ Each employee type calculates net salary differently
-
-✔ Uses method overriding (polymorphism)
-
-✔ All business logic is handled inside service classes
-
-📄 Console Interface
-
-Menu options include:
-
-✔ Add employees
-
-✔ Show all employees
-
-✔ Find employee by ID
-
-✔ Show total payroll
-
-✔ Exit
-
-🧩 Clean & Scalable Structure
-
-Separate model, service, and app layers
-
-Easy to extend (e.g., contractor employees, DB, REST API, etc.)
+Java, Object-Oriented Programming, Abstraction, Inheritance, Polymorphism, Interfaces, Method Overriding, Layered Architecture, Input Validation, Business Logic
